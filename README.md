@@ -1,5 +1,9 @@
-class WhoAmI {
-  constructor() {
+class WhoAmI 
+{
+
+  constructor() 
+  {
+  
     this.name = "Khalid Nafie Morsi";
     this.role = [
       "💻 Software Engineer",
@@ -16,11 +20,13 @@ class WhoAmI {
     ];
   }
 
-  getLocation() {
+  getLocation() 
+  {
     return "📍 Sudan, Khartoum";
   }
 
-  futureGoals() {
+  futureGoals() 
+  {
     return [
       "🤝 Contribute to impactful Open Source projects",
       "🏗 Master System Design & Advanced DSA",
@@ -29,9 +35,10 @@ class WhoAmI {
     ];
   }
 
-  introduce() {
+  introduce() 
+  {
     return `Hi, I'm ${this.name}, a passionate ${this.role[1]} from ${this.getLocation()}. 
-My current focus is on ${this.currentFocus}. 🚀`;
+        My current focus is on ${this.currentFocus}. 🚀`;
   }
 }
 
